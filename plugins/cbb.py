@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Owner : <a href='https://telegram.dog/GreyMatter_Owner'>GreyMatter's Owner</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/Greymattersbot/File-Sharing-Bot'>Click here</a>\n○ Channel : @GreyMatter_Bots\n○ Support Group : @GreyMatters_Bots_Discussion</b>",
+            text = f"<b>○ Owner : <a href='https://telegram.dog/Balaepic'>Balaepic</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/Selfie-bd/filestorefx'>Click here</a>\n○ Channel : @Epicflims\n○ Support Group : @Epic_flims</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data = "close")
                     ]
                 ]
             )
